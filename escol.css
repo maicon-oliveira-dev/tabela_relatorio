@@ -1,0 +1,51 @@
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .logo {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      max-width: 100%;
+    }
+
+    .caixa-branca {
+      background-color:rgb(95, 153, 206);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 140px auto 40px auto;
+      max-width: 800px;
+    }
+
+    .container {
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    .tabela {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .tabela th,
+    .tabela td {
+      border: 1px solid #000000;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .tabela th {
+      background-color: rgb(95, 153, 206)
+    }
+tr:hover{
+  background-color:rgb(240, 143, 182) ;
+}
+
