@@ -50,8 +50,3 @@ tr:hover{
   background-color:rgb(240, 143, 182) ;
 }
 
-@media (max-width: 600px) {
-  .caixa-branca {
-    margin-top: 250px;
-  }
-}
