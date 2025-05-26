@@ -50,3 +50,7 @@ tr:hover{
   background-color:rgb(240, 143, 182) ;
 }
 
+logo-container {
+  text-align: center;
+  margin-bottom: 30px; /* Garante espaço entre a logo e a caixa azul */
+}
