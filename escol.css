@@ -54,3 +54,34 @@ tr:hover{
   text-align: center;
   margin-bottom: 30px; /* Garante espaço entre a logo e a caixa azul */
 }
+
+@media only print {
+.logo-container {
+    display: none;
+  }
+
+  .caixa-branca {
+    display: none;
+  }
+
+  .tabela {
+    width: 100%;
+    font-size: 10pt; /* reduz o tamanho da fonte */
+  }
+
+  .tabela th,
+  .tabela td {
+    padding: 5px; /* reduz o padding das células */
+    font-size: 10pt;
+  }
+
+  body {
+    margin: 0;
+    padding: 10mm; /* margem para impressão */
+    background-color: white; /* fundo branco para impressão */
+  }
+
+  .container {
+    overflow-x: visible; /* garante que tudo seja mostrado na impressão */
+  }
+}
