@@ -49,6 +49,14 @@
       background-color: rgb(95, 153, 206);
       box-shadow: 1px 1px 10px #656262;
     }
+
+    /*Exercício: Criar uma tabela zebra aqui irei colocar os codigos do exercicio */
+    tr:nth-child(even) {
+      background-color:rgba(32, 0, 193, 0.403);
+    }
+    tr:nth-child(odd){
+      background-color: rgba(0, 85, 255, 0.5)
+    }
 tr:hover{
    transition: all 1s linear;
   background-color:rgb(240, 143, 182) ;
