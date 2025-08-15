@@ -52,7 +52,7 @@
 
     /*Exercício: Criar uma tabela zebra aqui irei colocar os codigos do exercicio */
     tr:nth-child(even) {
-      background-color:rgba(227, 226, 232, 0.403);
+      background-color:rgba(227, 226, 232, 0.427);
     }
     tr:nth-child(odd){
       background-color: rgba(138, 146, 164, 0.5)
